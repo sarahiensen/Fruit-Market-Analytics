@@ -1,13 +1,5 @@
 # Fruit Market Analytics
 
-## Table of Contents
-- [Project Overview](project-overview)
-- [Problems to Solve](problems-to-solve)
-- [Before vs. After: Dashboard Improvements](before)
-- [Answered Questions](answered-questions)
-- [New Formulas](new-formulas)
-- [Recommendations](recommendations)
-
 ## Project Overview
 This project was made for a job interview challenge as a Business Intelligence Intern. After 3 months with the company, I decided to revisit the same project to see how much I’d learned. The results surprised me; even after a short period, there were many things I would change, and that’s exactly what I did.
 
