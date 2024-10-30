@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Fruit Market Analytics"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "143ed08d-ac00-4c5b-92bd-6b913cf324a4"
+  }
+}

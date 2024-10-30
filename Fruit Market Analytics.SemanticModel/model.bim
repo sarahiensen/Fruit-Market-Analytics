@@ -1,0 +1,4234 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dProdutos\",\"fVendas\",\"Medidas\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.137.952.0 (24.10)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "calendario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d calendario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dCalendario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "calendario.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Ano"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calendario.data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "calendario.data.variation.hierarquia_de_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hierarquia de data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarquia de information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "calendario.data.variation.hierarquia_de_data.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Ano",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "calendario.data.variation.hierarquia_de_data.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Dia",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "calendario.data.variation.hierarquia_de_data.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Mês",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "calendario.data.variation.hierarquia_de_data.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "calendario.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Dia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calendario.dia_me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "DIA_MES"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DIA_MES": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Data": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "calendario.faturamento_dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "FATURAMENTO DIA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "faturamento dia": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calendario.indice_nome_me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "INDICE_NOME_MES"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "indice nome me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "INDICE_NOME_MES": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "calendario.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Mês"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calendario.mês_abrev": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Mês Abrev"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mês abrev": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mê abrev": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "calendario.nome_do_mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Nome do Mês"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nome do mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Mês": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.dia_maior_fat": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "DIA_MAIOR_FAT_GERAL"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia maior fat geral": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DIA_MAIOR_FAT_GERAL": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Data": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.dia_menor_fat": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "DIA_MENOR_FAT"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia menor fat": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DIA_MENOR_FAT": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Data": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.fat_dia_maior": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "FAT_DIA_MAIOR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fat dia maior": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FAT_DIA_MAIOR": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Faturamento": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.fat_dia_menor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "FAT_DIA_MENOR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fat dia menor": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FAT_DIA_MENOR": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Faturamento": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.faturamento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "FATURAMENTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "faturamento": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.faturamento_em_horário_de_pico": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "FAT_HORARIO_PICO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fat horario pico": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FAT_HORARIO_PICO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Faturamento": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.mais_faturadas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "MAIS FATURADAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mais faturadas": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.percentual_mais_faturadas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "PERCENTUAL MAIS FATURADAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "percentual mais faturadas": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.ticket_medio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "TICKET_MEDIO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ticket medio": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TICKET_MEDIO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.vol_dia_maior": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "VOL_DIA_MAIOR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vol dia maior": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "VOL_DIA_MAIOR": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Volume Vendido (kg)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.vol_dia_menor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "VOL_DIA_MENOR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vol dia menor": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "VOL_DIA_MENOR": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Volume Vendido (kg)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "produto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dProdutos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d produto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dProdutos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "produto.id_produto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dProdutos",
+                    "ConceptualProperty": "ID_PRODUTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id produto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ID_PRODUTO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "produto.nome_do_produto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dProdutos",
+                    "ConceptualProperty": "Nome do Produto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nome do produto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Produto": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "produto.peso_medio_unitario_kg": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dProdutos",
+                    "ConceptualProperty": "PESO_MEDIO_UNITARIO_KG"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "peso medio unitario kg": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PESO_MEDIO_UNITARIO_KG": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "produto.preço_kg": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dProdutos",
+                    "ConceptualProperty": "PREÇO_KG"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "preço kg": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PREÇO_KG": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "venda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "f venda": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fVendas": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "venda": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "venda.data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "DATA"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "venda.faixa_horario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "FAIXA_HORARIO"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "faixa horario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FAIXA_HORARIO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "time": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "Faixa de Horário": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "venda.id_produto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "ID_PRODUTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id produto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ID_PRODUTO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential produto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "venda.indice_me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "INDICE_MES"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "indice me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "INDICE_MES": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "venda.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "Mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "venda.produto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "PRODUTOS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "produto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "venda.valor_de_venda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "Valor de Venda"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor de venda": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "venda.volume_vendido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fVendas",
+                    "ConceptualProperty": "Volume Vendido (kg)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volume vendido": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "volume vendido (kg)": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Units": [
+                  "kilogram",
+                  "kg"
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "calendario_data_has_variation_hierarquia_de_data": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data"
+                      }
+                    },
+                    "ID": "data_have_hierarquia_de_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data": {
+                    "Target": {
+                      "Entity": "calendario.data"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_data_variation_hierarquia_de_data_ano_has_calendario_data_variation_hierarquia_de_data_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.ano"
+                      }
+                    },
+                    "ID": "anos_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_anos",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.ano"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.ano"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_data_variation_hierarquia_de_data_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_data_variation_hierarquia_de_data_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_data_variation_hierarquia_de_data_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_data_variation_hierarquia_de_data_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_data_variation_hierarquia_de_data_mê_has_calendario_data_variation_hierarquia_de_data_dia": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "ID": "dias_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "dias_are_in_mê",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.mê"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.dia"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_data_variation_hierarquia_de_data_trimestre_has_calendario_data_variation_hierarquia_de_data_mê": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "mê_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.data.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.data.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.mê"
+                    }
+                  },
+                  "calendario.data.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.data.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.ano"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.ano": {
+                    "Target": {
+                      "Entity": "calendario.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_data": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.data"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.data": {
+                    "Target": {
+                      "Entity": "calendario.data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.dia"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.dia": {
+                    "Target": {
+                      "Entity": "calendario.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_dia_me": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.dia_me"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_dia_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.dia_me": {
+                    "Target": {
+                      "Entity": "calendario.dia_me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_faturamento_dia": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.faturamento_dia"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_faturamento_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "calendario.faturamento_dia"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "faturamento_dia_indicates_how_expensive_d_calendarios_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.faturamento_dia": {
+                    "Target": {
+                      "Entity": "calendario.faturamento_dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_indice_nome_me": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.indice_nome_me"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_indice_nome_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.indice_nome_me": {
+                    "Target": {
+                      "Entity": "calendario.indice_nome_me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_medida_dia_maior_fat": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.dia_maior_fat"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_dia_maior_fat_geral",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "medida.dia_maior_fat": {
+                    "Target": {
+                      "Entity": "medida.dia_maior_fat"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_medida_dia_menor_fat": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.dia_menor_fat"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_dia_menor_fat",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "medida.dia_menor_fat": {
+                    "Target": {
+                      "Entity": "medida.dia_menor_fat"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_medida_fat_dia_maior": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.fat_dia_maior"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_fat_dia_maior",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "medida.fat_dia_maior": {
+                    "Target": {
+                      "Entity": "medida.fat_dia_maior"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_medida_fat_dia_menor": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.fat_dia_menor"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_fat_dia_menor",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "medida.fat_dia_menor": {
+                    "Target": {
+                      "Entity": "medida.fat_dia_menor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.mê": {
+                    "Target": {
+                      "Entity": "calendario.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_mês_abrev": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.mês_abrev"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_mês_abrevs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.mês_abrev": {
+                    "Target": {
+                      "Entity": "calendario.mês_abrev"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_nome_do_mê": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.nome_do_mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_nome_do_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.nome_do_mê": {
+                    "Target": {
+                      "Entity": "calendario.nome_do_mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "produto_has_id_produto": {
+                "Binding": {
+                  "ConceptualEntity": "dProdutos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "produto.id_produto"
+                      },
+                      "Subject": {
+                        "Role": "produto"
+                      }
+                    },
+                    "ID": "d_produtos_have_id_produtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "produto": {
+                    "Target": {
+                      "Entity": "produto"
+                    }
+                  },
+                  "produto.id_produto": {
+                    "Target": {
+                      "Entity": "produto.id_produto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "produto_has_nome_do_produto": {
+                "Binding": {
+                  "ConceptualEntity": "dProdutos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "produto.nome_do_produto"
+                      },
+                      "Subject": {
+                        "Role": "produto"
+                      }
+                    },
+                    "ID": "d_produtos_have_nome_do_produtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "produto": {
+                    "Target": {
+                      "Entity": "produto"
+                    }
+                  },
+                  "produto.nome_do_produto": {
+                    "Target": {
+                      "Entity": "produto.nome_do_produto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "produto_has_peso_medio_unitario_kg": {
+                "Binding": {
+                  "ConceptualEntity": "dProdutos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "produto.peso_medio_unitario_kg"
+                      },
+                      "Subject": {
+                        "Role": "produto"
+                      }
+                    },
+                    "ID": "d_produtos_have_peso_medio_unitario_kg",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "produto": {
+                    "Target": {
+                      "Entity": "produto"
+                    }
+                  },
+                  "produto.peso_medio_unitario_kg": {
+                    "Target": {
+                      "Entity": "produto.peso_medio_unitario_kg"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "produto_has_preço_kg": {
+                "Binding": {
+                  "ConceptualEntity": "dProdutos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "produto.preço_kg"
+                      },
+                      "Subject": {
+                        "Role": "produto"
+                      }
+                    },
+                    "ID": "d_produtos_have_preço_kg",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "produto.preço_kg"
+                      },
+                      "Subject": {
+                        "Role": "produto"
+                      }
+                    },
+                    "ID": "preço_kg_indicates_how_expensive_d_produtos_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "produto": {
+                    "Target": {
+                      "Entity": "produto"
+                    }
+                  },
+                  "produto.preço_kg": {
+                    "Target": {
+                      "Entity": "produto.preço_kg"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_calendario": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_d_calendarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_f_venda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Nouns": [
+                      {
+                        "data": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_data": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda.data"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  },
+                  "venda.data": {
+                    "Target": {
+                      "Entity": "venda.data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_faixa_horario": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda.faixa_horario"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_faixa_horarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  },
+                  "venda.faixa_horario": {
+                    "Target": {
+                      "Entity": "venda.faixa_horario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_indice_me": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda.indice_me"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_indice_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  },
+                  "venda.indice_me": {
+                    "Target": {
+                      "Entity": "venda.indice_me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda.me"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  },
+                  "venda.me": {
+                    "Target": {
+                      "Entity": "venda.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_medida_faturamento": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.faturamento"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_faturamento",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.faturamento": {
+                    "Target": {
+                      "Entity": "medida.faturamento"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_medida_faturamento_em_horário_de_pico": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.faturamento_em_horário_de_pico"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_fat_horario_pico",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.faturamento_em_horário_de_pico": {
+                    "Target": {
+                      "Entity": "medida.faturamento_em_horário_de_pico"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_medida_mais_faturadas": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.mais_faturadas"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_mais_faturadas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.mais_faturadas": {
+                    "Target": {
+                      "Entity": "medida.mais_faturadas"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_medida_percentual_mais_faturadas": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.percentual_mais_faturadas"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_percentual_mais_faturadas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.percentual_mais_faturadas": {
+                    "Target": {
+                      "Entity": "medida.percentual_mais_faturadas"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_medida_ticket_medio": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.ticket_medio"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_ticket_medio",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.ticket_medio": {
+                    "Target": {
+                      "Entity": "medida.ticket_medio"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_medida_vol_dia_maior": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.vol_dia_maior"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_vol_dia_maior",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.vol_dia_maior": {
+                    "Target": {
+                      "Entity": "medida.vol_dia_maior"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_medida_vol_dia_menor": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.vol_dia_menor"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_vol_dia_menor",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.vol_dia_menor": {
+                    "Target": {
+                      "Entity": "medida.vol_dia_menor"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_produto": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda.produto"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_produtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  },
+                  "venda.produto": {
+                    "Target": {
+                      "Entity": "venda.produto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_produto1": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "produto"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_d_produtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda"
+                      },
+                      "Subject": {
+                        "Role": "produto"
+                      }
+                    },
+                    "ID": "d_produtos_have_f_venda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "produto": {
+                    "Target": {
+                      "Entity": "produto"
+                    }
+                  },
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_valor_de_venda": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda.valor_de_venda"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_valor_de_venda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  },
+                  "venda.valor_de_venda": {
+                    "Target": {
+                      "Entity": "venda.valor_de_venda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "venda_has_volume_vendido": {
+                "Binding": {
+                  "ConceptualEntity": "fVendas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "venda.volume_vendido"
+                      },
+                      "Subject": {
+                        "Role": "venda"
+                      }
+                    },
+                    "ID": "f_venda_have_volume_vendidos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "venda": {
+                    "Target": {
+                      "Entity": "venda"
+                    }
+                  },
+                  "venda.volume_vendido": {
+                    "Target": {
+                      "Entity": "venda.volume_vendido"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_27f69262-6f7a-4850-ada5-ad4555a8976c",
+        "fromColumn": "ID_PRODUTO",
+        "fromTable": "fVendas",
+        "toColumn": "ID_PRODUTO",
+        "toTable": "dProdutos"
+      },
+      {
+        "name": "852c7c48-f9da-4c36-bdc6-d014419656e6",
+        "fromColumn": "Data",
+        "fromTable": "dCalendario",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_4029f4fc-1f4d-4c0d-9d67-01afda39e6da"
+      },
+      {
+        "name": "eb3fc823-15f8-e932-5dbc-e264672e082a",
+        "fromColumn": "DATA",
+        "fromTable": "fVendas",
+        "toColumn": "Data",
+        "toTable": "dCalendario"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "dProdutos",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ID_PRODUTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2b7ceafa-f4fb-44f7-8eb1-60189c646766",
+            "sourceColumn": "ID_PRODUTO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nome do Produto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5fa7b23a-bc7b-4f07-8d2a-5b3dbbc46b2d",
+            "sourceColumn": "Nome do Produto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PREÇO_KG",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "640944a5-477e-489a-8186-196dedadadd6",
+            "sourceColumn": "PREÇO_KG",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PESO_MEDIO_UNITARIO_KG",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "a4080554-989f-4cd1-afb3-8aa87c168787",
+            "sourceColumn": "PESO_MEDIO_UNITARIO_KG",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "40434c06-c93e-41c2-92d9-02aa9ab49efd",
+        "partitions": [
+          {
+            "name": "dProdutos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"D:\\Users\\sarah\\Desafio Driva\\Cópia de Teste visualização de dados.xlsx\"), null, true),",
+                "    produtos_Sheet = Fonte{[Item=\"produtos\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(produtos_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"ID_PRODUTO\", Int64.Type}, {\"NOME_PRODUTO\", type text}, {\"PREÇO_KG\", type number}, {\"PESO_MEDIO_UNITARIO_KG\", type number}}),",
+                "    #\"Linhas em Branco Removidas\" = Table.SelectRows(#\"Tipo Alterado\", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {\"\", null}))),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Linhas em Branco Removidas\",{{\"PREÇO_KG\", Currency.Type}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado1\",{{\"NOME_PRODUTO\", \"Nome do Produto\"}})",
+                "in",
+                "    #\"Colunas Renomeadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_6c6e7d27-95fa-41a8-b9e5-989abb4997b0",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "39a996b3-6c84-4e08-a64b-659a10f2d8a1",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "cec34080-0e2c-43b9-bf15-2a305bf876ea",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "e703b5bb-6ba1-4791-b48e-e9efcf0531db",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "f7b68b4a-79a7-451b-a059-237ec3a485e4",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "36af1cda-90e6-48cb-877d-d801a623c658",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "fdfd7e2b-9a59-453f-8a27-348b472fc1d0",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "e6ef527f-31ae-4af4-8b7a-1f6b9b41d048",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "fc1939dd-1514-4d9b-a706-1466e33960a5",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "9e9c0aa4-869f-4b0b-826f-adaee268fa0b",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "b39aea91-24e5-47ab-83c5-eb91f6503078",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "057659ee-03b5-455a-8d81-a0bdc7344367",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "c5793b6d-437a-4d60-aba7-6f2dd09161d3"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "fa1a487f-a62a-453e-8423-9312ccda3e54",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_6c6e7d27-95fa-41a8-b9e5-989abb4997b0",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fVendas",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "DATA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "707de3b2-c897-49be-bed2-19879747af88",
+            "sourceColumn": "DATA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID_PRODUTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4d516655-8c99-41f5-841c-3bb162755d88",
+            "sourceColumn": "ID_PRODUTO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Valor de Venda",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b132d7b4-9852-48e1-9afa-c9e2198a5fdb",
+            "sourceColumn": "Valor de Venda",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "FAIXA_HORARIO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Time",
+            "lineageTag": "302271dd-7863-4212-8a53-9d8e89b880ee",
+            "sourceColumn": "FAIXA_HORARIO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Volume Vendido (kg)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "decimal",
+            "expression": "DIVIDE(fVendas[Valor de Venda], RELATED(dProdutos[PREÇO_KG]))",
+            "formatString": "0.00",
+            "lineageTag": "b4fd366a-c567-412e-9f85-4e4d0bfeee29",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "PRODUTOS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "LOOKUPVALUE(dProdutos[Nome do Produto],dProdutos[ID_PRODUTO],fVendas[ID_PRODUTO]) ",
+            "isDataTypeInferred": true,
+            "lineageTag": "b4b460e9-8dd1-4cad-ab6d-1cf9c2ec95fd",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5c0c665d-25ad-41c5-b257-7b04df0e3dae",
+            "sortByColumn": "INDICE_MES",
+            "sourceColumn": "Mes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "INDICE_MES",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "975baa3c-7230-48c7-b73e-22221cff339a",
+            "sourceColumn": "INDICE_MES",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "13b6f69e-99aa-4b49-b26b-96e5263aa8a8",
+        "partitions": [
+          {
+            "name": "fVendas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"D:\\Users\\sarah\\Desafio Driva\\Cópia de Teste visualização de dados.xlsx\"), null, true),",
+                "    vendas_Sheet = Fonte{[Item=\"vendas\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(vendas_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"DATA\", type date}, {\"ID_PRODUTO\", Int64.Type}, {\"VALOR_VENDA\", type number}, {\"FAIXA_HORARIO\", type datetime}, {\"Column5\", type any}}),",
+                "    #\"Linhas em Branco Removidas\" = Table.SelectRows(#\"Tipo Alterado\", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {\"\", null}))),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Linhas em Branco Removidas\",{{\"FAIXA_HORARIO\", type time}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Column5\"}),",
+                "    #\"Mês Inserido\" = Table.AddColumn(#\"Colunas Removidas\", \"Mês\", each Date.Month([DATA]), Int64.Type),",
+                "    #\"Semana do Mês Inserida\" = Table.AddColumn(#\"Mês Inserido\", \"Semana do Mês\", each Date.WeekOfMonth([DATA]), Int64.Type),",
+                "    #\"Dia Inserido\" = Table.AddColumn(#\"Semana do Mês Inserida\", \"Dia\", each Date.Day([DATA]), Int64.Type),",
+                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Dia Inserido\",{\"Mês\", \"Dia\", \"Semana do Mês\"}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Colunas Removidas1\",{{\"VALOR_VENDA\", \"Valor de Venda\"}}),",
+                "    #\"Coluna Duplicada\" = Table.DuplicateColumn(#\"Colunas Renomeadas\", \"DATA\", \"DATA - Copiar\"),",
+                "    #\"Mês Extraído\" = Table.TransformColumns(#\"Coluna Duplicada\",{{\"DATA - Copiar\", Date.Month, Int64.Type}}),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Mês Extraído\",{{\"DATA - Copiar\", \"Mes\"}}),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Colunas Renomeadas1\",{{\"Mes\", type text}}),",
+                "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Tipo Alterado2\",\"8\",\"Agosto\",Replacer.ReplaceText,{\"Mes\"}),",
+                "    #\"Valor Substituído1\" = Table.ReplaceValue(#\"Valor Substituído\",\"9\",\"Setembro\",Replacer.ReplaceText,{\"Mes\"}),",
+                "    #\"Valor Substituído2\" = Table.ReplaceValue(#\"Valor Substituído1\",\"10\",\"Outubro\",Replacer.ReplaceText,{\"Mes\"}),",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Valor Substituído2\", each true),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Linhas Filtradas\", \"INDICE_MES\", each if [Mes] = \"Agosto\" then 1 ",
+                "  else if [Mes] = \"Setembro\" then 2 ",
+                "  else if [Mes] = \"Outubro\" then 3 ",
+                "  else null),",
+                "    #\"Linhas Filtradas1\" = Table.SelectRows(#\"Personalização Adicionada\", each true)",
+                "in",
+                "    #\"Linhas Filtradas1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          }
+        ],
+        "lineageTag": "fd662f7e-6f77-43b3-90de-97c1b66bfbb6",
+        "measures": [
+          {
+            "name": "FATURAMENTO",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "expression": "SUM(fVendas[Valor de Venda])",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "cee95920-d04a-4414-a14a-8af369a3a9b5"
+          },
+          {
+            "name": "TICKET_MEDIO",
+            "expression": "DIVIDE([FATURAMENTO], DISTINCTCOUNT(fVendas[ID_PRODUTO]))",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "6b879766-1e17-4b08-8231-f8e3b2c7d2ec"
+          },
+          {
+            "name": "FAT_HORARIO_PICO",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "expression": "CALCULATE([FATURAMENTO], FILTER(fVendas, HOUR(fVendas[FAIXA_HORARIO]) >= 11 && HOUR(fVendas[FAIXA_HORARIO]) <= 14))",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "560eb8e8-b56a-4ed2-885f-840448c9f090"
+          },
+          {
+            "name": "DIA_MAIOR_FAT_GERAL",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    MAX(dCalendario[Data]), ",
+              "    FILTER(",
+              "        dCalendario,",
+              "        dCalendario[FATURAMENTO DIA] = ",
+              "            CALCULATE(MAX(dCalendario[FATURAMENTO DIA]), ALLEXCEPT(dCalendario, dCalendario[Mês], dCalendario[Ano]))",
+              "    )",
+              ")",
+              ""
+            ],
+            "formatString": "d \"de\" mmmm",
+            "lineageTag": "26b67c39-59df-406b-bdfd-d417ca824069"
+          },
+          {
+            "name": "DIA_MENOR_FAT",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    MIN(dCalendario[Data]), ",
+              "    FILTER(",
+              "        dCalendario,",
+              "        dCalendario[FATURAMENTO DIA] = ",
+              "            CALCULATE(MIN(dCalendario[FATURAMENTO DIA]), ALLEXCEPT(dCalendario, dCalendario[Mês], dCalendario[Ano]))",
+              "    )",
+              ")",
+              ""
+            ],
+            "formatString": "d \"de\" mmmm",
+            "lineageTag": "0f715807-8c31-4069-a5cb-ac7795752411"
+          },
+          {
+            "name": "FAT_DIA_MAIOR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(dCalendario[FATURAMENTO DIA]),",
+              "    FILTER(",
+              "        dCalendario,",
+              "        dCalendario[Data] = [DIA_MAIOR_FAT_GERAL]",
+              "    )",
+              ")",
+              ""
+            ],
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "4761890a-54e1-4250-abfd-aa81eb7399a7"
+          },
+          {
+            "name": "FAT_DIA_MENOR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(dCalendario[FATURAMENTO DIA]),",
+              "    FILTER(",
+              "        dCalendario,",
+              "        dCalendario[Data] = [DIA_MENOR_FAT]",
+              "    )",
+              ")",
+              ""
+            ],
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "25b45c8d-6088-4208-8fbd-6faf957448cd"
+          },
+          {
+            "name": "VOL_DIA_MENOR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE(SUM(fVendas[Volume Vendido (kg)]),FILTER(dCalendario, dCalendario[Data] = [DIA_MENOR_FAT]))",
+            "lineageTag": "40836b35-3d4f-4b56-b3d8-a2570a272bb0"
+          },
+          {
+            "name": "VOL_DIA_MAIOR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE(SUM(fVendas[Volume Vendido (kg)]),FILTER(dCalendario, dCalendario[Data] = [DIA_MAIOR_FAT_GERAL]))",
+            "lineageTag": "ca7f6d54-2f4f-4ae7-ad4c-4bcfef746621"
+          },
+          {
+            "name": "MAIS FATURADAS",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE([FATURAMENTO], FILTER(dProdutos, dProdutos[Nome do Produto] IN {\"Uva\", \"Tangerina\", \"Carambola\"}))",
+            "lineageTag": "cff2658a-bbd1-4202-8f94-f428da21b9a6"
+          },
+          {
+            "name": "PERCENTUAL MAIS FATURADAS",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE(DIVIDE([MAIS FATURADAS],[FATURAMENTO])*100)",
+            "lineageTag": "2618cbf5-bcc4-4069-896e-d7cc639250ef"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", type text}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Coluna 1\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dCalendario",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "053d7f686edf48efa4486ae20db03743"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Data",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "c538189f-8827-48aa-951e-bea15a05f367",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_4029f4fc-1f4d-4c0d-9d67-01afda39e6da"
+                },
+                "isDefault": true,
+                "relationship": "852c7c48-f9da-4c36-bdc6-d014419656e6"
+              }
+            ]
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "YEAR(dCalendario[Data])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "f0cb1570-bf72-4653-985b-a744c5ce3d7d",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "MONTH(dCalendario[Data])",
+            "formatString": "0",
+            "lineageTag": "7974bf5a-c284-49a0-b5f0-c60d82e832e2",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Nome do Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "VAR mes = FORMAT(dCalendario[Data], \"mmmm\", \"PT-BR\")",
+              "RETURN UPPER(LEFT(mes, 1)) & MID(mes, 2, LEN(mes) - 1)",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "52fe5eb2-8cb1-4c61-80b1-5575bf5ce56c",
+            "sortByColumn": "INDICE_NOME_MES",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês Abrev",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT(dCalendario[Data], \"mmm\", \"PT-BR\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "2565f7a4-a472-4146-90a1-2f9c66e32f57",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "DAY(dCalendario[Data])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "248c563e-8b79-4280-8b69-21e87bae4c65",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "DIA_MES",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT(dCalendario[Data],\"dd/mmm\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "cda7ec4f-9e00-4bc9-90ee-e2f6f41ab69c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "FATURAMENTO DIA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "expression": "CALCULATE(SUM(fVendas[Valor de Venda]), FILTER(fVendas, dCalendario[Data] = fVendas[DATA]))",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "f4e19a3c-9e1e-4276-91f1-cd9a654c12a1",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "INDICE_NOME_MES",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    MONTH(dCalendario[Data]),",
+              "    8, 1,  // Agosto",
+              "    9, 2,  // Setembro",
+              "    10, 3, // Outubro",
+              "    BLANK() // Retorna vazio se nenhum dos casos acima for verdadeiro",
+              ")",
+              ""
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "3f97ddc9-9318-4a97-ac1e-8f9d186b7604",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "60d93bfd-b61d-4072-b66e-6a143d9f4a09",
+        "partitions": [
+          {
+            "name": "dCalendario",
+            "mode": "import",
+            "source": {
+              "expression": "CALENDAR(DATE(2021,8,1), DATE(2021,10,29))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_4029f4fc-1f4d-4c0d-9d67-01afda39e6da",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "ec6ffd2a-8a1b-4bf4-a116-13f434f8e50b",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "23ff853f-b351-44cb-a0fd-74c4b1d82e90",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "768baaaa-97aa-4c8a-a12f-686ecceb1b5e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "4bd3aba0-c1f8-4dc3-b7b0-c4e277761cb7",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "a6590e7d-41bf-4ecd-8ba9-02860e853eee",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "f4211162-c885-4a2e-9797-75fa7b165556",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "1a865859-09ce-47f2-8a9b-ef59bae0f5fa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "160c23ac-b104-4820-a2ce-6252c423b2f4",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "d39968b3-7861-4ae0-8524-5019d4146c1f",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "ebea3897-3653-4a45-8997-af70b925775c",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "b62b153e-f676-4881-8c4e-5c6126f9870a",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "8a140b35-fc90-43dc-b437-1acf5869bbff"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "86060958-e329-4bb9-8465-6b746f704d30",
+        "partitions": [
+          {
+            "name": "LocalDateTable_4029f4fc-1f4d-4c0d-9d67-01afda39e6da",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('dCalendario'[Data])), 1, 1), Date(Year(MAX('dCalendario'[Data])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}

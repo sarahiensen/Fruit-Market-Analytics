@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Fruit Market Analytics"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a3a104ce-b4cb-4537-ab84-fb8697f845ce"
+  }
+}
