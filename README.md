@@ -1,7 +1,7 @@
 # Fruit Market Analytics
 
 ## Project Overview
-This project was made for a job interview challenge as a Business Intelligence Intern. After 3 months with the company, I decided to revisit the same project to see how much I’d learned. The results surprised me; even after a short period, there were many things I would change, and that’s exactly what I did.
+This project was made for a challenge. After 3 months, I decided to revisit the same project to see how much I’d learned. The results surprised me - even after a short period, there were many things I would change, and that’s exactly what I did.
 
 ## Problems to Solve
 
