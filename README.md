@@ -19,17 +19,17 @@ To solve this, I changed a few things:
 - 🔎**Less is More** - If one of the client’s questions is "What was my best sales day?", I need to ensure they can find that insight easily. Instead of a large and colorful table with the income for all days, I created two small tables showing the best and worst sales days (using specific colors only for the information I wanted to highlight).
 
 
-You can compare all of these changes in the before/after images below:
+You can compare all of these changes by seeing how it looks now vs. how it looked before in the images below.
+
+## Now:
+![Análise geral - vendas](https://github.com/user-attachments/assets/940f6148-61e4-4d34-ad5c-8dc607dde392)
+
+![image](https://github.com/user-attachments/assets/159d1d88-6ff0-473c-a3d5-f40751fb1db5)
 
 ## Before:
 ![fruitfarm sem fundo 1](https://github.com/user-attachments/assets/235178a5-78a4-44a8-bdb6-1c4d8f2cdf1a)
 
 ![fruitfarm sem fundo 2](https://github.com/user-attachments/assets/f12d4e53-ae5a-4ffb-bd38-9025cd392fef)
-
-## After:
-![Análise geral - vendas](https://github.com/user-attachments/assets/940f6148-61e4-4d34-ad5c-8dc607dde392)
-
-![image](https://github.com/user-attachments/assets/159d1d88-6ff0-473c-a3d5-f40751fb1db5)
 
 ------------------------
 
